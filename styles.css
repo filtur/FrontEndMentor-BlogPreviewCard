@@ -28,7 +28,7 @@ main {
   width: 327px;
   background-color: var(--white);
   border: 1px solid var(--black);
-  border-radius: 20px;
+  border-radius: 16px;
   padding: 24px;
   box-shadow: 8px 8px 0 var(--black);
 }
@@ -36,14 +36,13 @@ section {
   margin-bottom: 24px;
 }
 
-h1 {
-  padding: 12px 0;
-  font-size: 20px;
-}
-
 .headline-link {
   color: var(--black);
   text-decoration: none;
+  padding: 12px 0;
+  font-size: 24px;
+  font-weight: 800;
+  display: block;
 }
 
 .headline-link:hover {
@@ -52,7 +51,7 @@ h1 {
 
 .preview-image img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 .category {
@@ -66,7 +65,7 @@ h1 {
 }
 
 .publish-date {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .blog-preview-text {
